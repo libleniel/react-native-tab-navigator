@@ -5,7 +5,7 @@ import {
   Animated,
   Platform,
   StyleSheet,
-  View,
+  View
 } from 'react-native';
 
 import ViewPropTypes from './config/ViewPropTypes';
@@ -13,7 +13,7 @@ import Layout from './Layout';
 
 export default class TabBar extends React.Component {
   static propTypes = {
-    ...Animated.View.propTypes,
+    ...ViewPropTypes,
     shadowStyle: ViewPropTypes.style,
   };
 
